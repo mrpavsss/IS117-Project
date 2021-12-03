@@ -1,4 +1,4 @@
-.footer {
+.container {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -8,4 +8,6 @@
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
+    max-width: 100%;
 }
+/* DEVELOPER Pavly Rizk, IS117-003, Fall 2021 */

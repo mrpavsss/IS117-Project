@@ -1,0 +1,75 @@
+.myDiv {
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    float: bottom;
+    bottom: 30px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    max-height: 10%;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+    max-width: 100%;
+}
+p.quote{
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    text-align: center;
+}
+p.prayer{
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+}
+.slides {
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+/* DEVELOPER Pavly Rizk, IS117-003, Fall 2021 */
